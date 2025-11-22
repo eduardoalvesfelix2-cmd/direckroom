@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordenação - Painel Interno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENU SUPERIOR DO PAINEL -->
+    <header class="header">
+        <div class="logo">Painel — Coordenação</div>
+        <nav class="menu">
+            <a href="painel.html">Início</a>
+            <a href="painel_direcao.html">Direção</a>
+            <a class="ativo" href="painel_coordenacao.html">Coordenação</a>
+            <a href="painel_secretaria.html">Secretaria</a>
+            <a href="painel_professores.html">Professores</a>
+            <a href="index.html" class="sair">Sair</a>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="setor-container">
+
+        <h1>Painel da Coordenação</h1>
+        <p class="sub">Gerencie atividades pedagógicas, eventos, repasses e avisos importantes.</p>
+
+        <!-- FORMULÁRIO DE NOVO AVISO -->
+        <section class="form-setor">
+            <h2>Novo Aviso / Evento</h2>
+
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" placeholder="Ex: Atividade de reforço, reunião com pais, etc.">
+
+            <label for="tipo">Tipo</label>
+            <select id="tipo">
+                <option value="evento">Evento</option>
+                <option value="aviso">Aviso</option>
+                <option
